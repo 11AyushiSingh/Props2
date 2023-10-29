@@ -1,0 +1,40 @@
+.dark{
+    background-color: gray;
+    color:wheat
+}
+.Container{
+    width: 15em;
+    margin: 0 0.2em;
+    float: left;
+    position: relative;
+}
+.Container.darkMode{
+  color: white;
+}
+.Container.lightMode{
+  color:black;
+}
+.pic{
+    width: 100%;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: white;
+}
+.channel, .views{
+    font-size: small;
+    color:#ccc;
+    margin-bottom: 0.2em;
+}
+.views span{
+    padding: 0 0.5em;
+}
+.close{
+    position: absolute;
+    left: 0;
+}
+.edit{
+    position: absolute;
+    left:3em;
+}
